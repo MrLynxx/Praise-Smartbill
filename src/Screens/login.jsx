@@ -44,7 +44,7 @@ const Login = () => {
 	useEffect(() => {
 		if (submit && auth?.isLoggedIn) {
 			setSubmit(false);
-			navigate("/");
+			// navigate("/");
 		}
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [submit, auth?.isLoggedIn]);
@@ -98,7 +98,7 @@ const Login = () => {
 							Forgot Password?
 						</Link>{" "}
 					</p>
-					<Buttons
+\					<Buttons
 						onClick={handleSubmit}
 						loading={loading}
 						title={"sign in"}

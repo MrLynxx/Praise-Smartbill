@@ -31,15 +31,15 @@ export let socials = [
 ];
 
 export let details = [
-	{ icon: <FaPhone />, text: "+2348000000000", type: "tel" },
+	{ icon: <FaPhone />, text: "+2348065498200", type: "tel" },
 	{
 		icon: <FaEnvelopeSquare />,
-		text: "support@honourworld.com.ng",
+		text: "ailerufiyinfoluwa@gmail.com",
 		type: "mail",
 	},
 	{
 		icon: <FaMapMarker />,
-		text: "Honourworld",
+		text: "Praise Smartbills",
 		type: "address",
 	},
 ];
@@ -69,8 +69,8 @@ const Footer = () => {
 							className="text-decoration-none text-white d-flex align-items-center mb-5">
 							<img src={logoLight} alt="Honourworld" className="logo me-1" />
 							<div className="d-none d-md-block">
-								<p className="text-capitalize m-0">Honour world</p>
-								<p className="text-capitalize m-0">limited</p>
+								<p className="text-capitalize m-0">Praise</p>
+								<p className="text-capitalize m-0">Smartbills</p>
 							</div>
 						</Link>
 						{/* <div className="d-none d-md-block fontReduce">
@@ -152,7 +152,7 @@ const Footer = () => {
 							))}
 						</ul>
 					</div>
-					<div className="pt-4 pt-md-0">
+					<div className="pt-4 d-none pt-md-0">
 						<h5>Socials</h5>
 						<ul className="list-group border-0 list-group-horizontal">
 							{socials.map((item, index) => (
@@ -178,7 +178,7 @@ const Footer = () => {
 							&copy; {`${new Date().getFullYear() !== 2022 ? "2022 - " : ""}`}
 							{new Date().getFullYear()}
 						</span>
-						&nbsp; <span className="d-block d-lg-inline">Honourworld</span>
+						&nbsp; <span className="d-block d-lg-inline">Praise Smartbills</span>
 					</p>
 				</div>
 			</div>

@@ -55,8 +55,8 @@ const Header = () => {
 				className="text-decoration-none text-dark d-flex align-items-center">
 				<img src={logo} alt="Honourworld" className="logo me-1" />
 				<div className="d-none d-md-block">
-					<p className="text-capitalize m-0">Honour world</p>
-					<p className="text-capitalize m-0">limited</p>
+					<p className="text-capitalize m-0">Praise</p>
+					<p className="text-capitalize m-0">Smartbills</p>
 				</div>
 			</Link>
 			{isOpen ? (

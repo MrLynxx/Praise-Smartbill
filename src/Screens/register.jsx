@@ -40,7 +40,7 @@ const Register = () => {
 	useEffect(() => {
 		if (submit && auth?.isLoggedIn) {
 			setSubmit(false);
-			navigate("/");
+			// navigate("/");
 		}
 		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [submit, auth?.isLoggedIn]);
@@ -161,8 +161,8 @@ export const DefaultAuthComponent = ({ children }) => {
 						className="text-decoration-none text-dark d-flex align-items-center mb-4">
 						<img src={logo} alt="Honourworld" className="logo me-1" />
 						<div className="d-none d-md-block">
-							<p className="text-capitalize m-0">Honour world</p>
-							<p className="text-capitalize m-0">limited</p>
+							<p className="text-capitalize m-0">Praise</p>
+							<p className="text-capitalize m-0">Smartbills</p>
 						</div>
 					</span>
 					{children}
